@@ -1,0 +1,46 @@
+SQL QUERIES FOR WORD FLASH
+
+mysql> CREATE TABLE Exercise1 (id INT NOT NULL AUTO_INCREMENT, word CHAR(30) NOT NULL, description CHAR(100) NULL, PRIMARY KEY (id));
+Query OK, 0 rows affected (0.10 sec)
+
+CREATE TABLE Exercises (ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL UNIQUE,
+Exercise VARCHAR(50), Description VARCHAR(500))
+
+CREATE TABLE Science (ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL UNIQUE,
+Word VARCHAR(50))
+
+INSERT INTO Exercises (Exercise, Description) VALUES ('Science', 'Contains all the scientific words')
+
+CREATE TABLE Schedule (id INTEGER PRIMARY KEY AUTO_INCREMENT, EventName VARCHAR(50), ScheduleTime VARCHAR(50), Description VARCHAR(100))
+    -> ;
+
+INSERT INTO Schedule (EventName,ScheduleTime, Description) VALUES ('Board Meeting', '2012-04-21', 'Meeting to be held')
+    -> ;
+
+CREATE TABLE Idea (id INTEGER PRIMARY KEY AUTO_INCREMENT, IdeaName VARCHAR(50), IdeaDate DATETIME, Description VARCHAR(200))
+
+INSERT INTO Idea (IdeaName, IdeaDate, Description) VALUES ('Scientific Journal', 2012-04-21, 'Scientifi Journal on Black hole')
+
+
+INSERT INTO Schedule (EventName,ScheduleTime, Description) VALUES ('Group Study', '2012-04-21', 'Study for the Exam')
+
+CREATE TABLE Synonyms (Id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL UNIQUE, first_word VARCHAR(30) NOT NULL, second_word VARCHAR(30) NOT NULL)
+
+CREATE TABLE Antonyms (Id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL UNIQUE, first_word VARCHAR(30) NOT NULL, second_word VARCHAR(30) NOT NULL)
+
+INSERT INTO Synonyms (first_word, second_word) VALUES ('Clever', 'Smart')
+
+INSERT INTO Synonyms (first_word, second_word) VALUES ('disturbance', 'agitation'),
+('complexity', 'entanglement'),
+('trivial', 'insignificant'),
+('brave', 'adventurous'),
+('big', 'large'),
+('blank', 'empty'),
+('fertile', 'fruitful'),
+('false', 'untrue'),
+('loving', 'fond'),
+('usual', 'normal'),
+('thin', 'lean'),
+('safe', 'secure'),
+('sleepy', 'drowsy')
+
